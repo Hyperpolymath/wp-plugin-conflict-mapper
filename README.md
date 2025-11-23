@@ -2,7 +2,7 @@
 
 **Author**: Jonathan
 **Version**: 1.0.0
-**License**: GNU Affero General Public License v3.0
+**License**: Dual Licensed (AGPL v3.0 / Palimpsest v0.8.0)
 **Requires at least**: WordPress 5.8
 **Requires PHP**: 7.4+
 
@@ -428,15 +428,44 @@ See [CHANGELOG.md](CHANGELOG.md) for version history.
 
 ## License
 
-This project is licensed under the GNU Affero General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+This project is **dual-licensed**. You may choose either:
 
-### What This Means
+### Option 1: GNU AGPL v3.0 (LICENSE-AGPL)
 
-- You may use, modify, and distribute this software
-- Any modifications must also be released under AGPL v3.0
-- If you run a modified version on a network server, you must provide source code access
-- Maintain copyright and license notices
-- No warranty is provided
+Strong copyleft license for maximum user freedom.
+
+- Source code disclosure required for network services
+- Modifications must be shared under AGPL v3.0
+- Full GPL family compatibility
+- [Read full license](LICENSE-AGPL)
+
+### Option 2: Palimpsest License v0.8.0 (LICENSE-PALIMPSEST)
+
+Modern reciprocal license emphasizing autonomy.
+
+- Political non-alignment guarantee
+- Clear commercial use terms
+- Economic freedom protections
+- Governance independence
+- [Read full license](LICENSE-PALIMPSEST)
+
+### Choosing a License
+
+Both licenses require source code disclosure and attribution. Choose based on your needs:
+
+- **AGPL**: Traditional copyleft, GPL ecosystem
+- **Palimpsest**: Modern clarity, political autonomy
+
+See [LICENSE](LICENSE) for comparison and details.
+
+### What Both Licenses Guarantee
+
+- ✅ Commercial use permitted
+- ✅ Modification allowed
+- ✅ Distribution rights
+- ✅ Private use
+- ✅ Source code access
+- ❌ No warranty provided
 
 ## Credits
 
