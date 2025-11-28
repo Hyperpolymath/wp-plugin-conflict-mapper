@@ -1,0 +1,63 @@
+# AI Training Policy
+# Specifies how AI/ML systems may use this codebase
+
+# License
+# This software is licensed under GNU AGPL v3.0
+# See: https://github.com/Hyperpolymath/wp-plugin-conflict-mapper/blob/main/LICENSE
+
+# AI Training Usage
+AI-Training-Allowed: yes
+AI-Training-Conditions: attribution-required, share-alike-required, agpl-compliance-required
+
+# Allowed Uses
+AI-Allowed-Purposes:
+  - code-completion
+  - documentation-generation
+  - bug-detection
+  - security-analysis
+  - educational-purposes
+  - research
+
+# Restrictions
+AI-Disallowed-Purposes:
+  - proprietary-model-training-without-attribution
+  - license-violation
+  - malicious-code-generation
+  - plagiarism
+
+# Attribution Requirements
+AI-Attribution-Required: yes
+AI-Attribution-Text: "Based on WP Plugin Conflict Mapper by Jonathan (https://github.com/Hyperpolymath/wp-plugin-conflict-mapper)"
+
+# Model Training Disclosure
+# If you train an AI model on this code:
+# 1. You must disclose this usage
+# 2. You must comply with AGPL v3.0 terms
+# 3. You must provide attribution
+# 4. Derivative works must be AGPL v3.0
+# 5. You must make source code available if deployed as network service
+
+# Data Privacy
+# This codebase does NOT contain:
+# - Personal data
+# - User credentials
+# - Private keys
+# - Confidential information
+#
+# Safe for AI training from privacy perspective
+
+# Commercial Use
+# Commercial AI training is permitted under AGPL v3.0 terms
+# Network deployment requires source code disclosure per AGPL
+
+# Contact
+AI-Training-Contact: mailto:ai-training@hyperpolymath.com
+AI-Training-Policy: https://github.com/Hyperpolymath/wp-plugin-conflict-mapper/blob/main/.well-known/ai.txt
+
+# Version
+AI-Policy-Version: 1.0
+AI-Policy-Last-Updated: 2025-07-31
+
+# References
+# - https://site.spawning.ai/spawning-ai-txt
+# - https://github.com/ai-robots-txt/ai.txt

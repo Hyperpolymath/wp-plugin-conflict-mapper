@@ -1,0 +1,316 @@
+# The Palimpsest License v0.8.0
+
+**Copyright © 2025 Jonathan (Hyperpolymath)**
+
+---
+
+## Preamble
+
+This license offers you reciprocity-driven freedoms while maintaining political and economic autonomy. You may use this software for any purpose, including commercial use, under these conditions.
+
+---
+
+## 1. Grant of Rights
+
+### 1.1 Permissions
+
+You are granted perpetual, worldwide, non-exclusive, royalty-free rights to:
+
+- **Use** this software for any purpose
+- **Study** the source code
+- **Modify** the software
+- **Distribute** original or modified versions
+- **Sublicense** under compatible terms
+- **Create** derivative works
+
+### 1.2 Patent Grant
+
+Contributors grant you a patent license for any patents they own or control that would be infringed by their contributions to this software.
+
+---
+
+## 2. Reciprocity Requirements
+
+### 2.1 Source Code Disclosure
+
+If you distribute this software or derivative works, you must:
+
+- Provide complete source code
+- Include build instructions
+- Make source available for at least 3 years
+- Use a commonly accessible distribution method
+
+### 2.2 Network Use
+
+If you run modified versions as a network service:
+
+- You must provide source code access to all users
+- Include a prominent link in the interface
+- Deliver source within 30 days of request
+
+### 2.3 Modifications
+
+Modified versions must:
+
+- Clearly indicate modifications
+- Preserve this license text
+- Document changes in CHANGELOG
+- Maintain original copyright notices
+
+---
+
+## 3. Attribution
+
+### 3.1 Required Attribution
+
+All distributions must include:
+
+```
+Based on WP Plugin Conflict Mapper
+Copyright © 2025 Jonathan (Hyperpolymath)
+Licensed under AGPL v3.0 and Palimpsest License v0.8.0
+https://github.com/Hyperpolymath/wp-plugin-conflict-mapper
+```
+
+### 3.2 Visibility
+
+Attribution must be:
+- Visible in documentation
+- Included in about/credits screens
+- Present in source file headers
+- Displayed in license files
+
+---
+
+## 4. Economic Freedom
+
+### 4.1 Commercial Use
+
+You may:
+- Sell this software or services using it
+- Charge for support, hosting, or customization
+- Create proprietary add-ons that interface via public APIs
+- Build SaaS offerings
+
+### 4.2 Restrictions
+
+You may NOT:
+- Use trademarks without permission
+- Imply endorsement without authorization
+- Remove or alter attribution
+- Violate reciprocity requirements
+
+---
+
+## 5. Political Autonomy
+
+### 5.1 Non-Alignment
+
+This license does not require:
+- Adherence to any political ideology
+- Participation in specific communities
+- Agreement with author's views
+- Code of conduct compliance (though encouraged)
+
+### 5.2 Governance Independence
+
+You control:
+- Your fork's governance
+- Your project's direction
+- Your community's rules
+- Your business model
+
+---
+
+## 6. Compatibility
+
+### 6.1 Copyleft Compatibility
+
+This license is compatible with:
+- GNU AGPL v3.0 (primary license)
+- GNU GPL v3.0
+- MPL 2.0
+- EPL 2.0
+
+### 6.2 Dual Licensing
+
+This software is dual-licensed under:
+1. **GNU AGPL v3.0** (primary)
+2. **Palimpsest License v0.8.0** (alternative)
+
+Choose the license that best suits your needs.
+
+---
+
+## 7. Termination
+
+### 7.1 Automatic Termination
+
+Your rights terminate automatically if you:
+- Fail to comply with this license
+- Initiate patent litigation against contributors
+- Violate reciprocity requirements
+- Remove attribution
+
+### 7.2 Cure Period
+
+You have 30 days from notification to cure violations. Rights restore upon compliance.
+
+### 7.3 Permanent Termination
+
+Repeated violations result in permanent termination with no cure period.
+
+---
+
+## 8. Warranties and Liability
+
+### 8.1 No Warranty
+
+```
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+```
+
+### 8.2 Limitation of Liability
+
+```
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
+---
+
+## 9. Contribution Terms
+
+### 9.1 Contributor Agreement
+
+By contributing, you:
+- Grant the project a perpetual license to your contributions
+- Certify you have the right to contribute
+- Agree your contributions are under this license
+- Waive moral rights where legally possible
+
+### 9.2 Contributor Rights
+
+You retain:
+- Copyright to your contributions
+- Right to use contributions elsewhere
+- Right to sublicense your portions
+- Patent rights except as granted
+
+---
+
+## 10. Special Provisions
+
+### 10.1 Cryptographic Freedom
+
+No export restrictions are claimed. You may:
+- Use cryptography of any strength
+- Modify security features
+- Export to any jurisdiction
+- Comply with local laws at your discretion
+
+### 10.2 DRM Prohibition
+
+You may not:
+- Add DRM to this software
+- Prevent circumvention of restrictions
+- Use technical measures against users
+- Restrict interoperability
+
+### 10.3 Accessibility
+
+If you distribute with a UI, you should:
+- Follow WCAG 2.1 AA guidelines (encouraged, not required)
+- Support keyboard navigation
+- Provide alt text for images
+- Enable screen reader compatibility
+
+---
+
+## 11. Definitions
+
+**"Software"**: The work licensed under this agreement
+
+**"You"**: Individual or legal entity exercising rights
+
+**"Distribute"**: Make available to others
+
+**"Modify"**: Create derivative works
+
+**"Source Code"**: Preferred form for making modifications
+
+**"Network Service"**: Running software accessible over a network
+
+**"Contributor"**: Anyone who provides contributions
+
+**"Contribution"**: Original work submitted to the project
+
+---
+
+## 12. Interpretation
+
+### 12.1 Severability
+
+If any provision is unenforceable, it shall be reformed minimally to make it enforceable while preserving intent.
+
+### 12.2 Entire Agreement
+
+This license constitutes the entire agreement concerning the software.
+
+### 12.3 Amendments
+
+This license may only be amended by mutual written agreement.
+
+### 12.4 Governing Law
+
+Governed by laws of the jurisdiction where the copyright holder resides, excluding conflict of law provisions.
+
+---
+
+## 13. How to Apply
+
+To use this license:
+
+1. Include this LICENSE-PALIMPSEST file
+2. Add license header to source files:
+
+```php
+/**
+ * Copyright © 2025 Jonathan (Hyperpolymath)
+ *
+ * Dual Licensed:
+ * - GNU AGPL v3.0 or later
+ * - Palimpsest License v0.8.0
+ *
+ * You may choose which license to follow.
+ * See LICENSE and LICENSE-PALIMPSEST files.
+ */
+```
+
+3. Update README.md with dual license notice
+4. Include both license files in distributions
+
+---
+
+## Version History
+
+- **v0.8.0** (2025-07-31): Applied to WP Plugin Conflict Mapper
+- **v0.7.0**: Initial Palimpsest License release
+
+---
+
+## Contact
+
+- **License Questions**: license@hyperpolymath.com
+- **Project**: https://github.com/Hyperpolymath/wp-plugin-conflict-mapper
+- **License Source**: https://palimpsest.software (conceptual)
+
+---
+
+**END OF LICENSE**
+
+*Choose freedom. Choose reciprocity. Choose autonomy.*

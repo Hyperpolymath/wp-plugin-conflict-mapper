@@ -1,0 +1,27 @@
+# security.txt - RFC 9116
+# https://securitytxt.org/
+
+Contact: mailto:security@hyperpolymath.com
+Contact: https://github.com/Hyperpolymath/wp-plugin-conflict-mapper/security/advisories/new
+Expires: 2026-07-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://raw.githubusercontent.com/Hyperpolymath/wp-plugin-conflict-mapper/main/.well-known/security.txt
+
+# Encryption
+# PGP key available at: https://hyperpolymath.com/.well-known/pgp-key.txt
+# Fingerprint: (To be added)
+
+# Policy
+Policy: https://github.com/Hyperpolymath/wp-plugin-conflict-mapper/blob/main/SECURITY.md
+
+# Acknowledgments
+Acknowledgments: https://github.com/Hyperpolymath/wp-plugin-conflict-mapper/blob/main/SECURITY.md#hall-of-fame
+
+# Hiring
+# We're not currently hiring, but we welcome contributors!
+
+# Additional Information
+# Scope: This WordPress plugin for conflict detection and analysis
+# Vulnerability Disclosure: Coordinated disclosure, 90-day policy
+# Out of Scope: WordPress core, third-party plugins, hosting infrastructure
+# Safe Harbor: We support security research conducted in good faith

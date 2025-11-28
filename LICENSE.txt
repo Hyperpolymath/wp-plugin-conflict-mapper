@@ -1,0 +1,118 @@
+WP Plugin Conflict Mapper - Dual License Declaration
+====================================================
+
+SPDX-License-Identifier: AGPL-3.0-or-later OR Palimpsest-0.8
+
+This software is dual-licensed. You may choose to use, modify, and distribute
+this software under the terms of EITHER:
+
+    (a) GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later)
+        See LICENSE-AGPL for full license text
+        https://www.gnu.org/licenses/agpl-3.0.html
+
+    OR
+
+    (b) Palimpsest License v0.8.0 (Palimpsest-0.8)
+        See LICENSE-PALIMPSEST for full license text
+        https://github.com/horacioa/licenses/blob/main/Palimpsest/0.8.0.txt
+
+You do not have to do anything special to choose one license or the other and
+you do not have to notify anyone which license you are using. You are free to
+choose EITHER license at your discretion.
+
+================================================================================
+
+LICENSE COMPARISON
+==================
+
+Both licenses guarantee:
+    * Commercial use permitted
+    * Modification allowed
+    * Distribution rights
+    * Private use allowed
+    * Source code access required
+    * No warranty provided
+
+Key Differences:
+
+GNU AGPL v3.0:
+    * Strong copyleft (network use triggers source disclosure)
+    * GPL family compatibility
+    * Well-established legal precedent
+    * FSF-approved
+    * Network service provision requires source availability
+    * Patent grant included
+
+Palimpsest License v0.8.0:
+    * Modern reciprocal license emphasizing political autonomy
+    * Political non-alignment guarantee
+    * Clear commercial use terms
+    * Economic freedom protections
+    * Governance independence
+    * Explicit reversibility requirements
+    * Attribution with autonomy
+
+Choose Based On Your Needs:
+    * AGPL: Traditional copyleft, GPL ecosystem integration
+    * Palimpsest: Modern clarity, political autonomy emphasis
+
+================================================================================
+
+NOTICE OF DUAL LICENSING
+=========================
+
+Copyright (c) 2025 Jonathan
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of EITHER the GNU Affero General Public License as published by the
+Free Software Foundation, version 3 of the License or any later version, OR
+the Palimpsest License version 0.8.0.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.
+
+For the AGPL license, see the GNU Affero General Public License for more
+details: <https://www.gnu.org/licenses/agpl-3.0.html>
+
+For the Palimpsest license, see the full license text in LICENSE-PALIMPSEST
+or at: <https://github.com/horacioa/licenses/blob/main/Palimpsest/0.8.0.txt>
+
+================================================================================
+
+FULL LICENSE TEXTS
+==================
+
+The complete text of both licenses can be found in:
+    * LICENSE-AGPL (GNU Affero General Public License v3.0)
+    * LICENSE-PALIMPSEST (Palimpsest License v0.8.0)
+
+================================================================================
+
+CONTRIBUTOR LICENSING
+=====================
+
+Contributors to this project agree to license their contributions under the
+same dual-license terms (AGPL-3.0-or-later OR Palimpsest-0.8).
+
+By submitting a contribution, you certify that:
+    1. The contribution is your original work, or you have the right to submit
+       it under the dual license.
+    2. You grant the project maintainers and all recipients the right to use
+       your contribution under EITHER license.
+    3. You understand that your contribution becomes part of the dual-licensed
+       codebase.
+
+See CONTRIBUTING.adoc for full contributor guidelines.
+
+================================================================================
+
+CONTACT
+=======
+
+Project Repository: https://gitlab.com/Hyperpolymath/wp-plugin-conflict-mapper
+License Questions: Open an issue with the "licensing" label
+Security Issues: See SECURITY.md for vulnerability disclosure process
+
+================================================================================
+EOF

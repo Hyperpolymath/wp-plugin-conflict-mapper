@@ -1,0 +1,289 @@
+# Consent Requirements for WP Plugin Conflict Mapper
+# HTTP 430 Protocol Compliance
+# Format: RFC 9116 inspired
+
+# =============================================================================
+# CONSENT-REQUIRED.TXT
+# =============================================================================
+
+# This file documents consent requirements and data handling policies
+# for the WP Plugin Conflict Mapper WordPress plugin.
+
+# Last Updated: 2025-07-31
+# Version: 1.0.0
+
+# =============================================================================
+# SUMMARY
+# =============================================================================
+
+# WP Plugin Conflict Mapper is a WordPress plugin that:
+# - Analyzes installed plugins for conflicts
+# - Stores scan results locally in WordPress database
+# - Does NOT collect or transmit personal data
+# - Does NOT use cookies
+# - Does NOT track users
+# - Does NOT make external network requests
+
+# =============================================================================
+# DATA COLLECTION
+# =============================================================================
+
+# What We Collect:
+# - Plugin metadata (names, versions, file paths) from YOUR WordPress installation
+# - Scan results and conflict analysis
+# - WordPress admin user IDs (for capability checks)
+# - Timestamps of scan operations
+
+# What We Do NOT Collect:
+# - Personal information (names, emails, addresses)
+# - User behavior or analytics
+# - Content from your site
+# - Visitor data
+# - IP addresses
+# - Geolocation data
+
+# =============================================================================
+# DATA STORAGE
+# =============================================================================
+
+# Location: Your WordPress database only
+# Tables: wp_wpcm_scans, wp_wpcm_conflicts
+# Duration: According to your settings (default: 30 days)
+# Access: Only WordPress administrators with manage_options capability
+
+# External Storage: NONE
+# Cloud Services: NONE
+# Third-Party Services: NONE
+
+# =============================================================================
+# DATA TRANSMISSION
+# =============================================================================
+
+# Network Requests: NONE
+# External APIs: NONE
+# Telemetry: NONE
+# Analytics: NONE
+# Update Checks: Via WordPress.org only (not controlled by this plugin)
+
+# Your data never leaves your server.
+
+# =============================================================================
+# COOKIES
+# =============================================================================
+
+# This plugin does NOT use cookies.
+
+# WordPress session cookies may be present (controlled by WordPress core).
+
+# =============================================================================
+# CONSENT REQUIREMENTS
+# =============================================================================
+
+# Explicit Consent Required For:
+# - NONE (plugin is passive analysis tool)
+
+# Implicit Consent (by using plugin):
+# - Scanning installed plugins on your WordPress site
+# - Storing scan results in your database
+# - WordPress administrators viewing scan results
+
+# No consent required for:
+# - Installation (no data collected until first scan)
+# - Viewing documentation
+# - Uninstallation (all data removed)
+
+# =============================================================================
+# USER RIGHTS (GDPR/CCPA Compliance)
+# =============================================================================
+
+# Right to Access:
+# - View all scan data via admin dashboard
+# - Export scan data (JSON/CSV)
+
+# Right to Rectification:
+# - Delete individual scans
+# - Re-run scans to update data
+
+# Right to Erasure:
+# - Delete all scans via settings
+# - Uninstall plugin to remove all data
+
+# Right to Data Portability:
+# - Export JSON format (machine-readable)
+# - Export CSV format (human-readable)
+
+# Right to Object:
+# - Disable automatic scanning
+# - Delete plugin data anytime
+
+# =============================================================================
+# CHILDREN'S PRIVACY
+# =============================================================================
+
+# This plugin does not collect personal data.
+# No age restrictions apply.
+# COPPA compliant by design (no personal data collection).
+
+# =============================================================================
+# DATA RETENTION
+# =============================================================================
+
+# Retention Period: Configurable (default: 30 days)
+# Automatic Cleanup: Yes (if enabled in settings)
+# Manual Cleanup: Available via admin interface
+# Uninstall Cleanup: All data removed automatically
+
+# =============================================================================
+# SECURITY
+# =============================================================================
+
+# Data Protection Measures:
+# - WordPress nonce verification on all operations
+# - Capability checks (manage_options required)
+# - SQL injection protection (prepared statements)
+# - XSS protection (output escaping)
+# - CSRF protection (WordPress nonces)
+
+# Data Encryption:
+# - At rest: Depends on your database configuration
+# - In transit: Depends on your HTTPS configuration
+# - Plugin does not transmit data externally
+
+# =============================================================================
+# THIRD-PARTY SERVICES
+# =============================================================================
+
+# This plugin uses ZERO third-party services.
+
+# WordPress.org: Plugin updates only (controlled by WordPress core)
+# No analytics, No tracking, No external APIs, No CDNs
+
+# =============================================================================
+# CHANGES TO THIS POLICY
+# =============================================================================
+
+# Policy Version: 1.0.0
+# Last Updated: 2025-07-31
+# Review Period: Annual
+
+# Users will be notified of policy changes via:
+# - Plugin update changelog
+# - Admin notice in WordPress dashboard
+# - Documentation updates
+
+# =============================================================================
+# CONTACT
+# =============================================================================
+
+# Privacy Questions: Open issue at GitLab
+# Data Requests: Not applicable (no personal data collected)
+# Security Issues: See .well-known/security.txt
+
+# Project: https://gitlab.com/Hyperpolymath/wp-plugin-conflict-mapper
+# Issues: https://gitlab.com/Hyperpolymath/wp-plugin-conflict-mapper/-/issues
+# Security: See SECURITY.md
+
+# =============================================================================
+# LEGAL BASIS FOR PROCESSING (GDPR Article 6)
+# =============================================================================
+
+# Legal Basis: Legitimate Interest (Article 6(1)(f))
+
+# Legitimate Interest:
+# - Website administrator's interest in maintaining secure, conflict-free WordPress installation
+# - Analysis of installed plugins to prevent site breakage
+
+# Data Subject Rights:
+# - Right to object (disable plugin or uninstall)
+# - Right to erasure (delete scans or uninstall)
+# - Right to data portability (export functionality)
+
+# Balancing Test:
+# - Data collected: Technical plugin metadata only (no personal data)
+# - Purpose: Site maintenance and security
+# - Impact on data subject: Minimal (administrators only)
+# - Mitigation: Full control over data retention and deletion
+
+# =============================================================================
+# INTERNATIONAL DATA TRANSFERS
+# =============================================================================
+
+# Cross-Border Transfers: NONE
+
+# Data Location: Your WordPress server only
+# No international transfers occur.
+
+# =============================================================================
+# AUTOMATED DECISION-MAKING
+# =============================================================================
+
+# Automated Decisions: NONE
+
+# Plugin provides analysis and recommendations only.
+# All actions require explicit administrator approval.
+
+# =============================================================================
+# DATA BREACH NOTIFICATION
+# =============================================================================
+
+# In the unlikely event of a security breach:
+# 1. See SECURITY.md for vulnerability disclosure process
+# 2. Breaches affecting user data will be disclosed transparently
+# 3. Security advisories published on project website
+
+# Note: Since no personal data is collected, data breach notification
+# requirements under GDPR/CCPA likely do not apply.
+
+# =============================================================================
+# CONSENT WITHDRAWAL
+# =============================================================================
+
+# To withdraw consent:
+# 1. Disable automatic scanning in Settings
+# 2. Delete all scan data via Dashboard
+# 3. Deactivate plugin
+# 4. Uninstall plugin (removes all data)
+
+# Effect: All plugin data permanently removed from database.
+# Reversal: Not possible after uninstall (data deletion is permanent).
+
+# =============================================================================
+# QUESTIONS?
+# =============================================================================
+
+# This document provides complete transparency about data handling.
+
+# For questions:
+# - Read REVERSIBILITY.md for data deletion procedures
+# - Read SECURITY.md for security practices
+# - Open issue: https://gitlab.com/Hyperpolymath/wp-plugin-conflict-mapper/-/issues
+
+# =============================================================================
+# PHILOSOPHY
+# =============================================================================
+
+# Privacy by Design:
+# - No data collection unless necessary
+# - No external data transmission
+# - User control over all data
+# - Transparent data handling
+# - Reversible operations
+
+# Principle: "The best privacy policy is not collecting data in the first place."
+
+# =============================================================================
+# VERIFICATION
+# =============================================================================
+
+# You can verify these claims by:
+# 1. Inspecting the source code (open source)
+# 2. Network monitoring (no external requests)
+# 3. Database inspection (data stored locally only)
+# 4. WordPress debug log (no external API calls)
+
+# Source code: https://gitlab.com/Hyperpolymath/wp-plugin-conflict-mapper
+# License: AGPL-3.0-or-later OR Palimpsest-0.8 (source code always available)
+
+# =============================================================================
+# END OF CONSENT-REQUIRED.TXT
+# =============================================================================
