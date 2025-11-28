@@ -1,5 +1,11 @@
 <?php
 /**
+ * SPDX-License-Identifier: AGPL-3.0-or-later OR Palimpsest-0.8
+ *
+ * @package WP_Plugin_Conflict_Mapper
+ * @license AGPL-3.0-or-later OR Palimpsest-0.8
+ */
+/**
  * Integration Tests for REST API
  *
  * @package WP_Plugin_Conflict_Mapper
